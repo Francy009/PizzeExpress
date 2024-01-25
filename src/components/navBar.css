@@ -1,0 +1,9 @@
+.nav-button {
+    background-color: red;
+    border-radius: 20px;
+}
+
+.nav-button a {
+    color: white;
+    left: 10px;
+}
