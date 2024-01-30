@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.paragrafo {
+  font-family: "curvise", serif;
+}
+
+.titolo {
+  font-family: "fantasy", serif;
+}
