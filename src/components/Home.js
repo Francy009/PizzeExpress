@@ -10,7 +10,7 @@ function home() {
                          alt="immagine pizza"></img>
                 </div>
                 <div className="col-md-4 mb-3">
-                    <div className="card h-100">
+                    <div className="card h-100 mt-5">
                         <div className="card-body">
                             <h1 className="card-title titolo">PizzaExpress!</h1>
 
