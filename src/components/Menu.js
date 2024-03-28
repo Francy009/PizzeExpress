@@ -13,6 +13,9 @@ function Menu() {
                             <h5 className="card-title">Margherita</h5>
                             <h6>Ingredienti</h6>
                             <p className="card-text">Farina 00,Olio extravergine di oliva,Pomodoro,Mozzarella</p>
+                            <button className="btn btn-primary "
+                                    style={{backgroundColor: "red"}}>4,00$
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -24,8 +27,10 @@ function Menu() {
                         <div className="card-body">
                             <h5 className="card-title">Diavola</h5>
                             <h6>Ingredienti</h6>
-                            <p className="card-text">Farina 00,Olio extravergine di oliva,Pomodoro,Mozzarella,Salame
-                                Piccante</p>
+                            <p className="card-text">Farina 00,Olio extravergine di oliva,Pomodoro,Mozzarella,Piccante</p>
+                            <button className="btn btn-primary"
+                                    style={{backgroundColor: "red"}}>5,00$
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -38,6 +43,9 @@ function Menu() {
                             <h5 className="card-title">Marinara</h5>
                             <h6>Ingredienti</h6>
                             <p className="card-text">Farina 00,Olio extravergine di oliva,Pomodoro,Pomodoro,Aglio</p>
+                            <button className="btn btn-primary"
+                                    style={{backgroundColor: "red"}}>6,00$
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -49,9 +57,10 @@ function Menu() {
                         <div className="card-body">
                             <h5 className="card-title">4 Formaggi</h5>
                             <h6>Ingredienti</h6>
-                            <p className="card-text">Farina 00,Olio extravergine di oliva,Gorgonzola,Fontina,
-                                Parmiggiano,
-                                Pepe</p>
+                            <p className="card-text">Farina 00,Olio extravergine di oliva,Gorgonzola,Fontina,Pepe</p>
+                            <button className="btn btn-primary"
+                                    style={{backgroundColor: "red"}}>7,00$
+                            </button>
                         </div>
                     </div>
                 </div>
