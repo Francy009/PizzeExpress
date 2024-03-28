@@ -3,6 +3,10 @@ import './navBar.css'
 import {Link} from "react-router-dom";
 
 export function NavBar() {
+    const handleClick = () => {
+        console.log('Il pulsante è stato cliccato!');
+    };
+
     return (
 
         <nav id="navbarcontainer" className="navbar navbar-expand-lg bg-body-tertiary">
@@ -32,9 +36,8 @@ export function NavBar() {
                         </li>
                     </ul>
                 </div>
-                <button className="nav-item nav-button">
-                    <a className="nav-link" href="#">
-                        <b>Prenota Tavolo</b></a>
+                <button className="nav-item nav-button" onClick={handleClick}>
+                    <Link to="/prenota-tavolo" className="nav-link" href="#">Prenota un Tavolo</Link>
                 </button>
             </div>
         </nav>
