@@ -25,10 +25,10 @@ export function NavBar() {
                             <Link to="/chi-siamo" className="nav-link" href="#">Chi Siamo</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Menù</a>
+                            <Link to="/menu" className="nav-link" href="#">Menù</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contattaci</a>
+                            <Link to="/contattaci" className="nav-link" href="#">Contattaci</Link>
                         </li>
                     </ul>
                 </div>
