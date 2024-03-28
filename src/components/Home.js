@@ -12,7 +12,7 @@ function home() {
                 <div className="col-md-4 mb-3">
                     <div className="card h-100 mt-5">
                         <div className="card-body">
-                            <h1 className="card-title titolo">PizzaExpress!</h1>
+                            <h1 className="card-title titolo" style={{color:"red"}}>PizzaExpress!</h1>
 
                             <p className="card-text paragrafo">Benvenuti nel nostro delizioso mondo di Pizze Express!
                                 Siamo entusiasti di accogliervi nel cuore della
